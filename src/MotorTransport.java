@@ -4,6 +4,6 @@ public abstract class MotorTransport extends WheleedTransport {
         super(modelName, wheelsCount);
     }
 public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+        System.out.println("Проверяем  двигатель");
 }
 }

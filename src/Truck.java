@@ -7,7 +7,7 @@ public class Truck extends MotorTransport {
     }
     @Override
     public void service() {
-        System.out.println("Отцепляем прицеп");
+        System.out.println("Отцепляем  прицеп");
         for (int i = 0; i<getWheelsCount(); i++) {
             updateTyre();
         }

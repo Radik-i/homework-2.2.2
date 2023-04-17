@@ -5,7 +5,7 @@ public class Bicycle extends WheleedTransport {
     }
     @Override
     public void service() {
-       System.out.println("Переворачиваем велосипед");
+       System.out.println("Переворачиваем  велосипед");
        updateTyre();
     }
 }

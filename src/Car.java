@@ -4,7 +4,7 @@ public class Car extends MotorTransport {
     }
     @Override
     public void service() {
-      System.out.println ("Поднимаем машину");
+      System.out.println ("Поднимаем  машину");
         for (int i = 0; i < getWheelsCount(); i++) {
             updateTyre();
         }

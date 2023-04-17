@@ -4,7 +4,7 @@ public class ServiceStation {
         transport.service();
         System.out.println("=============");
     }
-    public void check(Car car){
+    public void check(Car  car){
         car.service();
     }
 

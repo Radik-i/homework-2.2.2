@@ -9,7 +9,7 @@ public class Main {
                 new Bicycle("bicycle2", 3)
         };
         ServiceStation station = new ServiceStation();
-        for (Transport transport : transports) {
+        for (Transport transport :  transports) {
             station.check(transport);
         }
     }
